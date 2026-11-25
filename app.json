@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "MarketGo",
+    "slug": "marketgo",
+    "scheme": "marketgo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.natansauer.marketgo"
+    },
+    "android": {
+      "package": "com.natansauer.marketgo",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFEDD5",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

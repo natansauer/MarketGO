@@ -1,0 +1,53 @@
+{
+  "name": "marketgo",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest && node --test \"supabase/tests/*.test.mjs\"",
+    "test:app": "jest",
+    "test:db": "node --test \"supabase/tests/*.test.mjs\"",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write app src __tests__ supabase/tests"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    }
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "@hookform/resolvers": "^5.2.2",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@supabase/supabase-js": "^2.81.0",
+    "@tanstack/react-query": "^5.90.0",
+    "expo": "~58.0.23",
+    "expo-constants": "~58.0.0",
+    "expo-linking": "~58.0.0",
+    "expo-router": "~58.0.30",
+    "expo-status-bar": "~58.0.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-hook-form": "^7.66.0",
+    "react-native": "0.88.1",
+    "react-native-safe-area-context": "~5.10.1",
+    "react-native-screens": "~4.30.0",
+    "react-native-url-polyfill": "^2.0.0",
+    "react-native-web": "~0.21.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.3.0",
+    "@types/jest": "^30.0.0",
+    "@types/react": "~19.3.0",
+    "jest": "^30.0.0",
+    "jest-expo": "~58.0.0",
+    "prettier": "^3.6.0",
+    "typescript": "~6.0.0"
+  }
+}
