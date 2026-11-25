@@ -94,6 +94,7 @@ As capturas estão em [`docs/screenshots/`](screenshots/).
 | 12 — Confirmar pedido | Passou: acompanhamento com R$ 125,90 calculados pelo banco | 11 a 13 |
 | 14 — Simular até "Entregue" | Passou: linha do tempo completa e "Pedir novamente" | 14, 15 |
 | Histórico | Passou: Pizzaria Forno a Lenha, Entregue, R$ 125,90 | 16-historico.png |
+| "Pedir novamente" | Passou: o carrinho voltou com os mesmos 4 itens (R$ 118,00) e a barra "Ver carrinho · 4 itens" apareceu nas lojas | 09, 16 |
 
 O total do app e o do `create_order` bateram: R$ 125,90 nos dois.
 
